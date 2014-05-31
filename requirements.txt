@@ -1,0 +1,6 @@
+beautifulsoup4==4.3.2
+python-ntlm==1.0.1
+requests==2.2.1
+requests-ntlm==0.0.2.3
+pep8==1.5.6
+pyflakes==0.8.1
