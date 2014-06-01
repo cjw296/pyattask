@@ -17,6 +17,13 @@
 #    51 Franklin Street, Fifth Floor
 #    Boston, MA  02110-1301, USA.
 
+__title__ = 'pyattask'
+__fancyname__ = 'PyAtTask'
+__version__ = '0.0.1'
+__author__ = 'David Ressman'
+__license__ = 'GPL v.2'
+__copyright__ = '2014, Jump Systems, LLC'
+
 import logging
 log = logging.getLogger(__name__)
 log.addHandler(logging.NullHandler())

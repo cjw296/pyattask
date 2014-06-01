@@ -20,12 +20,14 @@
 import os
 from setuptools import setup
 
+import attask
+
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
     name = "pyattask",
-    version = "0.0.1",
+    version = attask.__version__,
     author = "David Ressman",
     author_email = "davidr@ressman.org",
     description = ("Python bindings for the AtTask API"),
