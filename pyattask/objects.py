@@ -298,7 +298,6 @@ class AtTaskObject(object):
         if not params:
             params = {}
 
-        print "woot", params
         url = pyattask.session.get_session()._url
         get_url = url + '/' + cls.endpoint() + '/' + id_
 
