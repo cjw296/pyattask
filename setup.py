@@ -18,22 +18,22 @@
 
 
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
-import attask
+import pyattask
 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
     name = "pyattask",
-    version = attask.__version__,
+    version = pyattask.__version__,
     author = "David Ressman",
     author_email = "davidr@ressman.org",
     description = ("Python bindings for the AtTask API"),
     license = "GPLv2",
     keywords = "attask api bindings",
-    packages=['attask'],
+    packages=find_packages(),
     long_description=read('README.md'),
     classifiers=[
         "Development Status :: 3 - Alpha",
